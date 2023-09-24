@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="https://jakarta.ee/xml/ns/jakartaee" xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_6_0.xsd" version="6.0">
+  <servlet>
+    <description></description>
+    <display-name>Numbers</display-name>
+    <servlet-name>Numbers</servlet-name>
+    <servlet-class>Numbers</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Numbers</servlet-name>
+    <url-pattern>/Numbers</url-pattern>
+  </servlet-mapping>
+  <display-name>basiс_servlet_assignment</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>NumbersForm</display-name>
+    <servlet-name>NumbersForm</servlet-name>
+    <jsp-file>/NumbersForm.html</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>NumbersForm</servlet-name>
+    <url-pattern>/NumbersForm</url-pattern>
+  </servlet-mapping>
+</web-app>
